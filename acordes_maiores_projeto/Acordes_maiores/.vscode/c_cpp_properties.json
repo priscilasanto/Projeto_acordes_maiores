@@ -8,12 +8,12 @@
                 "${workspaceFolder}/Adafruit-GFX-Library",
                 "${workspaceFolder}/DHT-sensor-library",
                 "${workspaceFolder}/build",
-                "C:/Users/PRIS/Desktop/acordes_maiores_projeto/pico-sdk/src",
+                "C:/Users/PRIS/Desktop/acordes_maiores_projeto/Acordes_maiores/pico-sdk/src",
                 "C:/Users/PRIS/Desktop/acordes_maiores_projeto/Adafruit_SSD1306",
                 "C:/Users/PRIS/Desktop/acordes_maiores_projeto/Adafruit-GFX-Library",
                 "C:/Users/PRIS/Desktop/acordes_maiores_projeto/DHT-sensor-library",
-                "C:/Users/PRIS/Desktop/acordes_maiores_projeto/pico-sdk/src/common/pico_stdlib/include",
-                "C:/Users/PRIS/Desktop/acordes_maiores_projeto/pico-sdk/src/rp2_common/hardware_i2c/include"
+                "C:\\Users\\PRIS\\Desktop\\acordes_maiores_projeto\\Acordes_maiores\\pico-sdk\\src\\common\\pico_stdlib_headers\\include",
+                "C:\\Users\\PRIS\\Desktop\\acordes_maiores_projeto\\Acordes_maiores\\pico-sdk\\src\\rp2_common\\hardware_i2c\\include"
             ],
             "defines": [],
             "compilerPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/bin/arm-none-eabi-gcc.exe",

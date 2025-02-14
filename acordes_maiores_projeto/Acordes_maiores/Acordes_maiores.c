@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/i2c.h"
-#include "Adafruit_SSD1306.h"
-#include "Adafruit_GFX.h"
+#include <Adafruit_SSD1306.h>
+#include <Adafruit_GFX.h>
 #include "DHT.h"
 
 #define DHT_PIN 15    // Pino conectado ao sensor DHT11
@@ -24,7 +24,7 @@ int main() {
     gpio_pull_up(PINO_SCL);
 
     // Inicializa o display OLED
-    if (!oled.begin(SSD1306_I2C_ADDRESS, 0x3C)) {
+    if (!oled.begin(SSD1306_I2C_ADDRESS, SSD1306_I2C_ADDRESS)) {
         printf("Falha ao inicializar o display OLED!\n");
         return -1;
     }
